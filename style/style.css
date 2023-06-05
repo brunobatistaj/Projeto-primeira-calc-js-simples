@@ -1,0 +1,64 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(197, 189, 179);
+}
+
+
+section{
+    width: 370px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgb(63, 63, 63);
+}
+
+div{
+    margin: 20px auto;
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    height: 50px;
+    background-color: grey;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+div p{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+table{
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 310px;
+    height: 300px;
+}
+button{
+    width: 70px;
+    height: 70px;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: darkgray;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(32, 32, 32);
+}
+
+
+/*botoes especiais*/
+.buttoni{
+    height: 145px;
+}
+.button0{
+    width: 145px;
+}

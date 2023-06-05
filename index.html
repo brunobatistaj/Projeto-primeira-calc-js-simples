@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+
+    <section>
+        <div>
+            <p class="resultado"></p>
+        </div>
+        <table>
+            <tr>
+                <td><button onclick="limpar()" id="c">C</button></td>
+                <td><button onclick="backspace()" id="back"><</button></td>
+                <td><button onclick="insert('/')" id="div">÷</button></td>
+                <td><button onclick="insert('*')" id="mult">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="insert('7')" id="sete">7</button></td>
+                <td><button onclick="insert('8')" id="oito">8</button></td>
+                <td><button onclick="insert('9')" id="nove">9</button></td>
+                <td><button onclick="insert('-')" id="menos">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="insert('4')" id="quatro">4</button></td>
+                <td><button onclick="insert('5')" id="cinco">5</button></td>
+                <td><button onclick="insert('6')" id="seis">6</button></td>
+                <td><button onclick="insert('+')" id="mais">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="insert('1')" id="um">1</button></td>
+                <td><button onclick="insert('2')" id="dois">2</button></td>
+                <td><button onclick="insert('3')" id="tres">3</button></td>
+                <td rowspan="2"><button onclick="calcular()" class="buttoni" id="igual">=</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="insert('0')" class="button0" id="zero">0</button></td>
+                <td><button onclick="insert('.')" id="dot">.</button></td>
+            </tr>
+        </table>
+    </section>
+
+
+    <script src="script/script.js"></script>
+</body>
+</html>
